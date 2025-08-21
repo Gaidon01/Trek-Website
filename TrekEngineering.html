@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trek Engineering Consultancy</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #d9d9d9;
+      color: #000;
+    }
+
+    header {
+      background-color: #000;
+      color: #d9d9d9;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    header img {
+      max-width: 220px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background: #111;
+      padding: 0.8rem;
+    }
+
+    nav a {
+      color: #d9d9d9;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: linear-gradient(to right, #000, #333);
+      color: #d9d9d9;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    section {
+      padding: 3rem 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .about, .services, .contact {
+      background: #fff;
+      margin: 2rem 0;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .services-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+
+    .service-item {
+      background: #d9d9d9;
+      padding: 1rem;
+      border-radius: 8px;
+      text-align: center;
+      transition: transform 0.5s;
+    }
+
+    .service-item:hover {
+      transform: translateY(-5px);
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    input, textarea, button {
+      padding: 1rem;
+      border: 1px solid #000;
+      border-radius: 10px;
+      font-size: 1rem;
+    }
+
+    button {
+      background: #000;
+      color: #d9d9d9;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background: #333;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #000;
+      color: #d9d9d9;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="Trek-01.jpg" alt="Trek Consultancy Logo">
+    <h1>Trek Engineering Consultancy</h1>
+    <p>Guiding your business through the digital journey</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+    <a href="#our partners">Partners</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Welcome to Trek Consultancy</h1>
+    <p>Your trusted partner in engineering and digital transformation</p>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+      Trek Engineering Consultancy is dedicated to helping businesses grow through innovative engineering solutions 
+      and digital transformation strategies. We combine cultural values with modern technology to deliver tailored results.
+    </p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="services-list">
+      <div class="service-item">
+        <h3>Engineering Solutions</h3>
+        <p>Providing expert consultancy in design, systems, and engineering processes.</p>
+      </div>
+      <div class="service-item">
+        <h3>Digital Transformation</h3>
+        <p>Guiding businesses through digital adoption, cloud solutions, and IT strategies.</p>
+      </div>
+      <div class="service-item">
+        <h3>Project Management</h3>
+        <p>Efficiently managing projects from start to completion with modern methodologies.</p>
+      </div>
+      <div class="service-item">
+        <h3>Training & Workshops</h3>
+        <p>Offering capacity building and IT-based professional training programs.</p>
+      </div>
+      <div class="service-item">
+        <h4>Technical implementation</h4>
+        <p>We are offering implementation service based on both hardware and software requirements.</p>
+      </div>
+      <div class="service-item">
+        <h5>Maintenance and site routines</h5>
+        <p>We offers our clients site routines for the full implemented site serviced by our company.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="3" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2025 Trek Engineering Consultancy. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
